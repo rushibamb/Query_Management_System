@@ -288,6 +288,14 @@ const Login = () => {
               </div>
             </div>
 
+            {/* Testing Credentials Info Box */}
+            <div className="p-3 bg-slate-50 border border-gray-200 rounded-xl text-slate-600 space-y-1.5">
+              <span className="text-[10px] font-bold text-slate-800 uppercase tracking-wider block">Testing Mode Only</span>
+              <p className="text-[11px] leading-relaxed">
+                Use email <strong className="font-bold select-all text-blue-600 bg-blue-50 px-1 py-0.5 rounded">admin@example.com</strong> and password <strong className="font-bold select-all text-blue-600 bg-blue-50 px-1 py-0.5 rounded">admin123</strong>
+              </p>
+            </div>
+
             {/* Remember Me Checkbox */}
             <div className="flex items-center">
               <input
