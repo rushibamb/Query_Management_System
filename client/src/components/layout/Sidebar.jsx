@@ -28,7 +28,7 @@ const Sidebar = ({ isOpen, onClose }) => {
       {isOpen && (
         <div
           onClick={onClose}
-          className="fixed inset-0 z-40 bg-slate-100/40 backdrop-blur-sm md:hidden"
+          className="fixed inset-0 z-40 bg-slate-900/40 backdrop-blur-sm md:hidden"
           aria-hidden="true"
         />
       )}
