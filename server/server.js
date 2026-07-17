@@ -17,7 +17,7 @@ const startServer = async () => {
     await connectDB();
     app.listen(PORT, () => {
       console.log(`Server is running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`);
-      console.log(`MongoDB URI: ${process.env.MONGODB_URI}`);
+      
     
     });
   } catch (error) {
